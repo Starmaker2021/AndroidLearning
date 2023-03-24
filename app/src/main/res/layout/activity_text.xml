@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_text_layout"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<TextView
+    android:id="@+id/tv_text1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/tv_text1"
+    android:textColor="#E3CF22"
+    android:textSize="24sp"/>
+    <TextView
+        android:id="@+id/tv_text2"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="1234567891011121314151617181920"
+        android:textColor="#E3CF22"
+        android:textSize="24sp"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        />
+
+</LinearLayout>

@@ -17,8 +17,19 @@
         android:id="@+id/btn_textview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="TextView"
+        android:background="#552255"/>
 
+    <Button
+        android:id="@+id/btn_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+    <Button
+        android:id="@+id/btn_button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
 </LinearLayout><!--    <View-->
     <!--        android:id="@+id/view_1"-->
     <!--        android:layout_width="100dp"-->
