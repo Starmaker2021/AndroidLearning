@@ -34,5 +34,12 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val mBtnEditText = findViewById<Button>(R.id.btn_button3)
+        mBtnEditText?.setOnClickListener {
+            val intent = Intent(this, EditTextActivity::class.java)
+            startActivity(intent)
+        }
+
+
     }
 }

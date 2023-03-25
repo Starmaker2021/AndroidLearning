@@ -18,9 +18,28 @@
        android:id="@+id/btn_2"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
-       android:text="按钮1"
+       android:text="按钮2"
        android:textSize="20sp"
        android:textColor="#B9BFC8"
-       android:background="#9A5858"
+       android:background="@drawable/bg"
+       android:layout_marginTop="40dp"/>
+   <Button
+       android:id="@+id/btn_3"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="按钮3"
+       android:textSize="20sp"
+       android:textColor="#B9BFC8"
+       android:background="@drawable/bg_btn3"
+       android:layout_marginTop="40dp"/>
+   <Button
+       android:id="@+id/btn_4"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="按钮4"
+       android:textSize="20sp"
+       android:textColor="#B9BFC8"
+       android:background="@drawable/bg_btn4"
+  
        android:layout_marginTop="40dp"/>
 </LinearLayout>

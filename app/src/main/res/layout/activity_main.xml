@@ -30,6 +30,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Button" />
+    <Button
+        android:id="@+id/btn_button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EditText"
+        android:textAllCaps="false"/>
 </LinearLayout><!--    <View-->
     <!--        android:id="@+id/view_1"-->
     <!--        android:layout_width="100dp"-->
