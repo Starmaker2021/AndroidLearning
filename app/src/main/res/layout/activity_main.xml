@@ -36,6 +36,22 @@
         android:layout_height="wrap_content"
         android:text="EditText"
         android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/radiobutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RadioButton" />
+    <Button
+        android:id="@+id/checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CheckBox" />
+    <Button
+        android:id="@+id/imageview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CheckBox" />
+
 </LinearLayout><!--    <View-->
     <!--        android:id="@+id/view_1"-->
     <!--        android:layout_width="100dp"-->
